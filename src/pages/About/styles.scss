@@ -1,0 +1,41 @@
+$base-color: #004FEC;
+$base-text-color: #333D51;
+
+.about-page {
+    display: flex;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    padding: 40px 32px;
+
+    .about-wrapper {
+        display: flex;
+
+        .about-image {
+            margin: 0 70px;
+            width: 110%; /* Will shrink image to 30% of its original width */
+            height: auto; 
+        }
+
+        .about-text-wrapper{
+            display: flex;
+            flex-direction: column;
+            margin-right: 50px;
+
+            .about-title {
+                font-weight: bold;
+                font-size: 30px;
+                color: #333333;
+                margin-bottom: 15px;
+            }
+
+            .about-description {
+                font-weight: normal;
+                font-size: 15px;
+                color: #000000;
+                line-height: 140%;
+            }
+        }
+    }
+}

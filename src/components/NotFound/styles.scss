@@ -1,0 +1,16 @@
+.not-found-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    margin: 0 auto;
+
+    .not-found-title {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    
+}

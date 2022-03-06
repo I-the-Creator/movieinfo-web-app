@@ -1,0 +1,24 @@
+$base-color: #004FEC;
+$base-text-color: #333D51;
+
+body {
+  margin: 0;
+  font-family: -apple-system, 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $base-text-color;
+  height: 100%;
+}
+
+code {
+  font-family:  'Montserrat', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: $base-text-color;
+  text-decoration: none;
+}

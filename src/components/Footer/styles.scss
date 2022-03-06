@@ -1,0 +1,31 @@
+.main-footer {
+    padding: 45px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A3A3A;
+
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
+    div {
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+
+        &.small-text {
+            font-size: 18px;
+            font-weight: 400;
+            padding-bottom: 5px;
+
+            &:last-child {
+                text-align: right;
+            }
+        }
+    }
+}

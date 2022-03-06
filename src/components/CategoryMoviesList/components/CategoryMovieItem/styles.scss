@@ -1,0 +1,50 @@
+$base-color: #004FEC;
+$base-text-color: #333D51;
+
+.category-movie-item {
+    height: 230px;
+    width: 510px;
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 0px 0px rgba(32, 40, 69, 0.14);
+    border-radius: 15px 0 0 15px;
+    transition: all 0.2s ease;
+
+    &:hover {
+        box-shadow: 0px 5px 10px rgba(32, 40, 69, 0.25);
+    }
+
+    .image-wrapper {
+        margin-right: 43px;
+
+        .movie-image {
+            width:185px;
+            height:230px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+    }
+ 
+    .bottom-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .issue-date, .genre {
+            font-weight: normal;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            position: relative;
+            transition: all 0.2s ease-in-out;
+            margin-bottom: 57px;
+        }
+    }
+}
